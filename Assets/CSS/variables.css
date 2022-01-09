@@ -1,0 +1,16 @@
+
+:root {
+    --darkest: black;
+    --dark:#021f54;
+    --accent: #aa671d;
+    --accent2: #fefb64;
+    --medium: #006e8c;
+    --medium3: #798da3;
+    --medium2: #c9d3dd93;
+    --light:#c9d3dd;
+    --white: white;
+
+/* other colors */
+    --shawdow: rgb(31, 30, 30)
+
+}

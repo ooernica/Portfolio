@@ -1,0 +1,47 @@
+.erna {
+    border-radius: 25px;
+    box-shadow: 10px 10px rgb(31, 30, 30);
+    object-fit: cover;
+    width: 90%;
+}
+
+body {
+    background-color: var(--light);
+} 
+
+/* not working */
+/* .container {
+    background-color: var(--medium2);
+} */
+        
+.jumbotron {
+    background-color: var(--medium3);
+    text-align: center;
+}
+
+.display-4 {
+    color: var(--dark);
+}
+
+.lead {
+    color: var(--accent);
+    font-weight: bold;
+    
+}
+        
+.h1, h2, h3 {
+    color: var(--dark);
+}
+
+p {
+    color: var(--accent);
+}
+        
+.bi-lightbulb {
+    fill: var(--accent2);
+}
+
+/* not working
+.return {
+    color: var(--accent)
+} */
