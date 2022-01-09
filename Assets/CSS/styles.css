@@ -1,6 +1,6 @@
 .erna {
     border-radius: 25px;
-    box-shadow: 10px 10px rgb(31, 30, 30);
+    box-shadow: 8px 8px rgb(56, 54, 54);
     object-fit: cover;
     width: 90%;
 }
@@ -39,6 +39,11 @@ p {
         
 .bi-lightbulb {
     fill: var(--accent2);
+}
+
+.projectImg {
+    height: 196px;
+    width: 347px;
 }
 
 /* not working
