@@ -45,7 +45,6 @@ body {
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
 }
-
         
 .h1, h2, h3 {
     color: var(--dark);
@@ -72,24 +71,8 @@ path {
     height: 196px;
     width: 347px;
 }
-
-#project1right {
-    align-items: right;
+#takemeHome {
+    margin-top: 20px;
+    text-align: center;
+    color: var(--accent);
 }
-
-#project2left{
-    align-items: left;
-}
-
-#project3right {
-    align-items: right;
-}
-
-#project4left{
-    align-items: left;
-}
-
-/* not working
-.return {
-    color: var(--accent)
-} */
