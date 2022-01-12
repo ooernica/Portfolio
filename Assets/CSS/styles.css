@@ -76,3 +76,14 @@ path {
     text-align: center;
     color: var(--accent);
 }
+.nav-fill {
+    background-color: var(--dark)
+}
+
+.nav-link {
+    color: var(--white)
+}
+
+#takemeHome {
+    color: var(--dark)
+}
