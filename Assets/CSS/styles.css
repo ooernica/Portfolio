@@ -15,22 +15,48 @@ body {
 } */
         
 .jumbotron {
-    background-color: var(--medium3);
+    background-color: var(--dark);
     text-align: center;
+    border-style: solid;
+    border-width: 5px;
+    border-color: var(--accent);
+    height: 500px;
+    position: relative;
 }
 
 .display-4 {
-    color: var(--dark);
+    color: var(--white);
+    margin: 0;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
 }
+
 
 .lead {
     color: var(--accent);
     font-weight: bold;
-    
+    margin: 0;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
 }
+
         
 .h1, h2, h3 {
     color: var(--dark);
+}
+
+.container {
+    padding: 25px;
+}
+
+#contactmeHeader, #contactmeInfo, #projects, #seemoreGitHub, #aboutMe {
+    text-align: center;
 }
 
 p {
