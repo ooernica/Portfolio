@@ -5,6 +5,7 @@ By: Erna Lukac
 updated portfolio showcasing my work
 
 # Deployed Link
+https://ooernica.github.io/portfolio/
 
 # Built With
 
