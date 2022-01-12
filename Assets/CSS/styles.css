@@ -1,12 +1,12 @@
 .erna {
     border-radius: 25px;
-    box-shadow: 8px 8px rgb(56, 54, 54);
+    box-shadow: 8px 8px var(--shadow);
     object-fit: cover;
     width: 90%;
 }
 
 body {
-    background-color: lightgrey;
+    background-color: var(--light);
 } 
 
 /* not working */
@@ -14,18 +14,18 @@ body {
     background-color: var(--medium2);
 } */
         
-.jumbotron {
-    background-color: navy;
+.jumbotron, .jumbotron-fluid {
+    background-color: var(--dark);
     text-align: center;
     border-style: solid;
     border-width: 5px;
-    border-color: rgb(160, 105, 3);
+    border-color: var(--accent);
     height: 500px;
     position: relative;
 }
 
 .display-4 {
-    color: white;
+    color: var(--white);
     margin: 0;
     position: absolute;
     top: 40%;
@@ -36,7 +36,7 @@ body {
 
 
 .lead {
-    color: rgb(160, 105, 3);
+    color: var(--accent);
     font-weight: bold;
     margin: 0;
     position: absolute;
@@ -47,7 +47,7 @@ body {
 }
         
 .h1, h2, h3 {
-    color: navy;
+    color: var(--dark);
 }
 
 .container {
@@ -59,11 +59,11 @@ body {
 }
 
 p {
-    color: rgb(160, 105, 3);
+    color: var(--accent);
 }
         
 path {
-    fill: yellow;
+    fill: var(--accent2);
     align-items: left;
 }
 
@@ -74,16 +74,16 @@ path {
 #takemeHome {
     margin-top: 20px;
     text-align: center;
-    color: rgb(160, 105, 3);
+    color: var(--accent);
 }
 .nav-fill {
-    background-color: navy;
+    background-color: var(--dark);
 }
 
 .nav-link {
-    color: white;
+    color: var(--white);
 }
 
 #takemeHome {
-    color: navy;
+    color: var(--dark);
 }
