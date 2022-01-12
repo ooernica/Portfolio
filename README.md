@@ -1,10 +1,14 @@
 # Portfolio
+By: Erna Lukac
 
 # Summary/Description
+updated portfolio showcasing my work
 
 # Deployed Link
 
+
 # Contributors:
+
 
 # Built With
 
