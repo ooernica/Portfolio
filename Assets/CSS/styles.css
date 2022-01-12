@@ -63,13 +63,30 @@ p {
     color: var(--accent);
 }
         
-.bi-lightbulb {
+path {
     fill: var(--accent2);
+    align-items: left;
 }
 
 .projectImg {
     height: 196px;
     width: 347px;
+}
+
+#project1right {
+    align-items: right;
+}
+
+#project2left{
+    align-items: left;
+}
+
+#project3right {
+    align-items: right;
+}
+
+#project4left{
+    align-items: left;
 }
 
 /* not working
