@@ -1,6 +1,7 @@
+/* Medium (768px) Large (992px)  & Extra Large (1200px) devices (desktops, laptops, tablets) */
 .erna {
     border-radius: 25px;
-    box-shadow: 8px 8px rgb(56, 54, 54);
+    box-shadow: 8px 8px #4d453d;
     object-fit: cover;
     width: 90%;
 }
@@ -20,7 +21,7 @@ body {
 }
 
 .display-4 {
-    color: white;
+    color: #ffffff;
     margin: 0;
     position: absolute;
     top: 40%;
@@ -62,9 +63,10 @@ path {
     align-items: left;
 }
 
-.projectImg {
+#project1right {
     height: 196px;
     width: 347px;
+    padding:12px;
 }
 #takemeHome {
     margin-top: 20px;
@@ -76,9 +78,29 @@ path {
 }
 
 .nav-link {
-    color: white;
+    color:#ffffff;
 }
 
 #takemeHome {
     color: #021f54;
 }
+
+
+
+/* Media Queries */
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { 
+
+    .erna {
+        border-radius: 25px;
+        box-shadow: 8px 8px #4d453d;
+        object-fit: cover;
+        width: 100%;
+    }
+
+    #project1right {
+        height: 150px;
+        width: 280px;
+    }
+ }
