@@ -42,16 +42,12 @@ body {
     transform: translate(-50%, -50%);
 }
         
-.h1, h2, h3 {
+.h1, h2, h3, #takemeHome {
     color:#021f54;
 }
 
 .container {
     padding: 25px;
-}
-
-#contactmeHeader, #contactmeInfo, #projects, #seemoreGitHub, #aboutMe {
-    text-align: center;
 }
 
 p {
@@ -68,39 +64,12 @@ path {
     width: 347px;
     padding:12px;
 }
-#takemeHome {
-    margin-top: 20px;
-    text-align: center;
-    color:#aa671d;
-}
+
 .nav-fill {
-    background-color: #021f54;
+    background-color:#021f54;
 }
 
 .nav-link {
     color:#ffffff;
 }
 
-#takemeHome {
-    color: #021f54;
-}
-
-
-
-/* Media Queries */
-
-/* Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) { 
-
-    .erna {
-        border-radius: 25px;
-        box-shadow: 8px 8px #4d453d;
-        object-fit: cover;
-        width: 100%;
-    }
-
-    #project1right {
-        height: 150px;
-        width: 280px;
-    }
- }
