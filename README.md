@@ -1,5 +1,5 @@
 # Portfolio
-By: Erna Lukac
+By: Erna Lukač
 
 # Summary/Description
 updated portfolio showcasing my work
