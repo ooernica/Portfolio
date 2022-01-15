@@ -10,9 +10,9 @@ body {
     background-color: #c9d3ddce;
 } 
 
-.jumbotron, .jumbotron-fluid {
+.jumbotron-fluid {
     background-color:#021f54;
-    text-align: center;
+
     border-style: solid;
     border-width: 5px;
     border-color: #aa671d;
@@ -22,7 +22,6 @@ body {
 
 .display-4 {
     color: #ffffff;
-    margin: 0;
     position: absolute;
     top: 40%;
     left: 50%;
@@ -42,8 +41,12 @@ body {
     transform: translate(-50%, -50%);
 }
         
-.h1, h2, h3, #takemeHome {
+.h1, h2, #takemeHome {
     color:#021f54;
+}
+
+h3 {
+    color: #006e8c;
 }
 
 .container {
@@ -56,13 +59,6 @@ p {
         
 path {
     fill: #fefb64;
-    align-items: left;
-}
-
-#project1right {
-    height: 196px;
-    width: 347px;
-    padding:12px;
 }
 
 .nav-fill {
